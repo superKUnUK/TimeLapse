@@ -1,3 +1,5 @@
+#Wird Automatisch erkannt
 gphoto2=model=USB PTP Class Camera
 libgphoto=cached-images=2
-gphoto2=filename=%Y%m%d%H%M%S.arw
+#benennt die Fotos nach Jahr Monat Tag Stunde Minute Sekunde Dateiformat 
+gphoto2=filename=%Y%m%d%H%M%S.%C
