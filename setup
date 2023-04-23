@@ -1,6 +1,6 @@
 #Add Betwork Share Mount
 sudo nano /etc/fstab
-//10.147.19.10/b-import /home/user/export cifs username=xxx,password=xxx,uid=1000 0 0
+//10.147.19.10/b-import ~/export cifs username=xxx,password=xxx,uid=1000 0 0
 #If needed Wifi Network
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 network={
@@ -8,7 +8,7 @@ network={
    psk="SecretPassWord"
 }
 #Crontabs for the corresponding scripts
-* * * * * bash /home/fob/pictures/scripts/photo.sh
-5 * * * * bash /home/fob/pictures/scripts/copy.sh
+* * * * * bash ~/pictures/scripts/photo.sh
+5 * * * * bash ~/pictures/scripts/copy.sh
 @reboot bash gphoto2 --auto-detect
 30 3 * * * sudo reboot
