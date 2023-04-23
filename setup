@@ -1,0 +1,3 @@
+#Add Betwork Share Mount
+sudo nano /etc/fstab
+//10.147.19.10/b-import /home/fob/export cifs username=xxx,password=xxx,uid=1000 0 0
