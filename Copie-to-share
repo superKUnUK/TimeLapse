@@ -1,0 +1,22 @@
+#!/bin/bash
+
+cd /home/fob/pictures/aktive
+
+# Verzeichnis erstellen, in das die Dateien kopiert werden
+dest_dir="/home/fob/export/alte_dateien_$(date +%Y-%m-%d_%H-%M-%S)"
+mkdir "$dest_dir"
+
+# Neueste Dateien auswählen
+old_files=$(find . -maxdepth 1 -type f -mmin +5)
+
+# Wenn keine Dateien gefunden wurden, Skript beenden
+if [ -z "$old_files" ]; then
+  echo "Keine alten Dateien gefunden."
+  exit 1
+fi
+
+# Dateien kopieren
+cp $old_files "$dest_dir"
+
+# Dateien löschen
+rm $old_files
