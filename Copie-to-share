@@ -1,9 +1,9 @@
 #!/bin/bash
 
-cd /home/fob/pictures/aktive
+cd ~/pictures/aktive
 
 # Verzeichnis erstellen, in das die Dateien kopiert werden
-dest_dir="/home/fob/export/alte_dateien_$(date +%Y-%m-%d_%H-%M-%S)"
+dest_dir="~/export/alte_dateien_$(date +%Y-%m-%d_%H-%M-%S)"
 mkdir "$dest_dir"
 
 # Neueste Dateien auswählen
