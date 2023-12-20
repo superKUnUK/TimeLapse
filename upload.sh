@@ -1,7 +1,7 @@
 
 #! /bin/bash
 
-ncftpput -vR -u photo -p Napoleon1! 192.168.10.12 Volume_1/Photo/timelaps/a58 /home/pi/pictures/$(date --date="yesterday" +"%d_%m_%Y")
+ncftpput -vR -u photo -p PassWord 192.168.10.12 Volume_1/Photo/timelaps/a58 /home/pi/pictures/$(date --date="yesterday" +"%d_%m_%Y")
 
 exit
 
