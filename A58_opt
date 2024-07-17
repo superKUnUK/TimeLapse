@@ -1,0 +1,240 @@
+gphoto2 --set-config Parameter=Choice
+
+Parameters:
+
+imagesize
+
+Choice: 0 Large
+Choice: 1 Medium
+Choice: 2 Small"
+
+iso
+
+Choice: 0 Auto ISO
+Choice: 1 25
+Choice: 2 100
+Choice: 3 200
+Choice: 4 400
+Choice: 5 800
+Choice: 6 1600
+Choice: 7 3200
+Choice: 8 6400
+Choice: 9 12800
+Choice: 10 16000
+Choice: 11 102400
+Choice: 12 Auto ISO Multi Frame Noise Reduction
+Choice: 13 25 Multi Frame Noise Reduction
+Choice: 14 50 Multi Frame Noise Reduction
+Choice: 15 64 Multi Frame Noise Reduction
+Choice: 16 80 Multi Frame Noise Reduction
+Choice: 17 100 Multi Frame Noise Reduction
+Choice: 18 125 Multi Frame Noise Reduction
+Choice: 19 160 Multi Frame Noise Reduction
+Choice: 20 200 Multi Frame Noise Reduction
+Choice: 21 250 Multi Frame Noise Reduction
+Choice: 22 320 Multi Frame Noise Reduction
+Choice: 23 400 Multi Frame Noise Reduction
+Choice: 24 500 Multi Frame Noise Reduction
+Choice: 25 640 Multi Frame Noise Reduction
+Choice: 26 800 Multi Frame Noise Reduction
+Choice: 27 1000 Multi Frame Noise Reduction
+Choice: 28 1250 Multi Frame Noise Reduction
+Choice: 29 1600 Multi Frame Noise Reduction
+Choice: 30 2000 Multi Frame Noise Reduction
+Choice: 31 2500 Multi Frame Noise Reduction
+Choice: 32 3200 Multi Frame Noise Reduction
+Choice: 33 4000 Multi Frame Noise Reduction
+Choice: 34 5000 Multi Frame Noise Reduction
+Choice: 35 6400 Multi Frame Noise Reduction
+Choice: 36 8000 Multi Frame Noise Reduction
+Choice: 37 10000 Multi Frame Noise Reduction
+Choice: 38 12800 Multi Frame Noise Reduction
+Choice: 39 16000 Multi Frame Noise Reduction
+Choice: 40 25600 Multi Frame Noise Reduction"
+
+whitebalance
+
+Choice: 0 Automatic
+Choice: 1 Daylight
+Choice: 2 Shade
+Choice: 3 Cloudy
+Choice: 4 Tungsten
+Choice: 5 Fluorescent: Warm White
+Choice: 6 Fluorescent: Cold White
+Choice: 7 Fluorescent: Day White
+Choice: 8 Fluorescent: Daylight
+Choice: 9 Flash
+Choice: 10 Choose Color Temperature
+Choice: 11 Preset"
+
+exposurecompensation
+
+Choice: 0 0
+Choice: 1 3
+Choice: 2 2.7
+Choice: 3 2.3
+Choice: 4 2
+Choice: 5 1.7
+Choice: 6 1.3
+Choice: 7 1
+Choice: 8 0.7
+Choice: 9 0.3
+Choice: 10 -0.3
+Choice: 11 -0.7
+Choice: 12 -1
+Choice: 13 -1.3
+Choice: 14 -1.7
+Choice: 15 -2
+Choice: 16 -2.3
+Choice: 17 -2.7
+Choice: 18 -3"
+
+flashmode
+
+Choice: 0 Flash off
+Choice: 1 Automatic Flash
+Choice: 2 Red-eye automatic
+Choice: 3 Fill flash
+Choice: 4 Red-eye fill
+Choice: 5 Rear Curtain Sync
+Choice: 6 Wireless Sync
+Choice: 7 Unknown value 8031
+Choice: 8 Slow Sync"
+
+f-number
+
+Bottom: 0
+Top: 655.35
+Step: 0.01"
+#4,5 = f4,5
+
+imagequality
+
+Choice: 0 Standard
+/main/capturesettings/imagequality
+Choice: 1 Fine
+Choice: 2 RAW
+Choice: 3 RAW+JPEG"
+
+focusmode
+
+Choice: 0 Manual
+Choice: 1 Automatic
+Choice: 2 Automatic Macro
+Choice: 3 AF-C
+Choice: 4 AF-A
+Choice: 5 Unknown value 8007"
+
+expprogram
+
+Choice: 0 Intelligent Auto
+Choice: 1 Superior Auto
+Choice: 2 P
+Choice: 3 A
+Choice: 4 S
+Choice: 5 M
+Choice: 6 Movie
+Choice: 7 Unknown value 8051
+Choice: 8 Unknown value 8052
+Choice: 9 Unknown value 8053
+Choice: 10 Sweep Panorama
+Choice: 11 Portrait
+Choice: 12 Sports Action
+Choice: 13 Macro
+Choice: 14 Landscape
+Choice: 15 Sunset
+Choice: 16 Night Scene
+Choice: 17 Hand-held Twilight
+Choice: 18 Night Portrait
+Choice: 19 Intelligent Auto Flash Off
+Choice: 20 Tele-zoom Cont. Priority AE
+Choice: 21 Unknown value 8033
+Choice: 22 Picture Effect"
+
+aspectratio
+
+Choice: 0 3:2   #Sensor Format
+Choice: 1 16:9"
+
+capturemode
+
+Choice: 0 Single Shot
+Choice: 1 Burst
+Choice: 2 Continuous Low Speed
+Choice: 3 Selftimer 2s
+Choice: 4 Selftimer 10s
+Choice: 5 Bracketing C 0.3 Steps 3 Pictures
+Choice: 6 Bracketing C 0.7 Steps 3 Pictures
+Choice: 7 Bracketing C 1.0 Steps 3 Pictures
+Choice: 8 Bracketing C 2.0 Steps 3 Pictures
+Choice: 9 Bracketing C 3.0 Steps 3 Pictures
+Choice: 10 Bracketing S 0.3 Steps 3 Pictures
+Choice: 11 Bracketing S 0.7 Steps 3 Pictures
+Choice: 12 Bracketing S 1.0 Steps 3 Pictures
+Choice: 13 Bracketing S 2.0 Steps 3 Pictures
+Choice: 14 Bracketing S 3.0 Steps 3 Pictures
+Choice: 15 Bracketing WB Lo
+Choice: 16 Bracketing WB Hi"
+
+exposuremetermode
+
+Choice: 0 Center Spot
+Choice: 1 Average
+Choice: 2 Center Weighted"
+
+shutterspeed
+
+Choice: 0 30     #30Sek
+Choice: 1 25
+Choice: 2 20
+Choice: 3 15
+Choice: 4 13
+Choice: 5 10
+Choice: 6 8
+Choice: 7 6
+Choice: 8 5
+Choice: 9 4
+Choice: 10 32/10
+Choice: 11 25/10
+Choice: 12 2
+Choice: 13 16/10
+Choice: 14 13/10
+Choice: 15 1     #1Sek
+Choice: 16 8/10
+Choice: 17 6/10
+Choice: 18 5/10
+Choice: 19 4/10
+Choice: 20 1/3
+Choice: 21 1/4
+Choice: 22 1/5
+Choice: 23 1/6
+Choice: 24 1/8
+Choice: 25 1/10
+Choice: 26 1/13
+Choice: 27 1/15
+Choice: 28 1/20
+Choice: 29 1/25
+Choice: 30 1/30
+Choice: 31 1/40
+Choice: 32 1/50
+Choice: 33 1/60
+Choice: 34 1/80
+Choice: 35 1/100
+Choice: 36 1/125
+Choice: 37 1/160
+Choice: 38 1/200
+Choice: 39 1/250
+Choice: 40 1/320
+Choice: 41 1/400
+Choice: 42 1/500
+Choice: 43 1/640
+Choice: 44 1/800
+Choice: 45 1/1000
+Choice: 46 1/1250
+Choice: 47 1/1600
+Choice: 48 1/2000
+Choice: 49 1/2500
+Choice: 50 1/3200
+Choice: 51 1/4000
+Choice: 52 Bulb"
+
