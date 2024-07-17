@@ -1,0 +1,10 @@
+gphoto2 --set-config imagequality=2
+  #0=Standard, 1=Fine, 2=RAW, 3=RAW+JPEG
+gphoto2 --set-config imagesize=0
+  #0=Large, 1=Medium, 2= Small
+gphoto2 --set-config aspectratio=0
+  #0=3:2, 1=16:9
+gphoto2 --set-config capturemode=0
+  #0=Single Shot
+gphoto2 --set-config flashmode=0
+  #0=Flash off
